@@ -1,4 +1,4 @@
-# p8 Micrófono y cámara
+# P8 Micrófono y cámara
 
 ## Micrófono
 
@@ -6,7 +6,9 @@
 
 Para esto, simplemente añadimos el `AudioClip` deseado en el componente `AudioSource` del guerrero y simplemente usamos `OnCollisionEnter` para reproducir el sonido al colisionar. [AudioOnColission](Scripts/AudioOnColission.cs).
 
-[Vídeo](Videos/slash.mp4)
+[Vídeo original](Videos/slash.mp4)
+
+https://github.com/user-attachments/assets/f578ebe3-e90c-42a7-827a-f03604331e3c
 
 ### ShowRecordText
 
@@ -20,6 +22,8 @@ Usamos la clase `Microphone` de Unity y creamos una serie de eventos que se disp
 
 [Vídeo](Videos/microphone.mp4)
 
+https://github.com/user-attachments/assets/631f27d9-d33e-400e-8e12-d9cf81068605
+
 ## Cámara
 
 ### Grabación de vídeo
@@ -29,3 +33,5 @@ Para la grabación de vídeo usamos la clase `WebCamTexture` de Unity. Similar a
 Además, para mostrar la grabación de la cámara, simplemente usamos el asset del monitor de la escena anterior y le ponemos un cubo fino delante con el mismo tamaño que la pantalla del monitor, aplicándole la textura de la cámara.
 
 [Vídeo](Videos/camera.mp4)
+
+https://github.com/user-attachments/assets/edcb5631-c723-4851-8b78-a62dc24074de
